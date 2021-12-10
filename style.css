@@ -35,6 +35,7 @@ body {
 
 
 .padded    { padding: 5%;    }
+.padded-10    { padding: 10%;    }
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -43,6 +44,7 @@ body {
 .grid.padded-2  { padding: 2rem;  }
 
 .margin-b-0 { margin-bottom: 0; }
+.margin     { margin: 5%;       }
 
 
 .bg-light    { background-color: #F8F6F4;}
@@ -78,7 +80,7 @@ h3 {font-size: 2rem;}
 
 p {
     line-height: 1.4;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.8rem;
 }
 
@@ -132,7 +134,15 @@ a:hover {
 
 /* Header & Footer */
 
-header {  padding: 1% 5%;  }
+header {  
+    padding: 1% 5%; 
+}
+
+header a {  
+    color: #D56F15; 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 
 footer {
     padding-bottom: 0.5rem;
@@ -141,9 +151,9 @@ footer {
     font-weight: 300;
 }
 
-footer p {
-    font-size: 0.8rem;
-}
+footer p   {    font-size: 0.8rem;}
+
+footer img {   max-width: 55%;  }
 
 
 /* Images & Background Images */
@@ -152,6 +162,15 @@ footer p {
     background-size: cover;
     background-position: center;
     background-image: url('/images/motiva1.jpg');
+}
+
+.bg-sity {  background-image: url('/images/motivate2.jpg');}
+
+.bg-cars {  background-image: url('/images/motivate-cars.jpg');}
+
+.bg-camel { 
+    background-image: url('/images/motiva-camels.jpg');
+    background-position: 50% 65%;
 }
 
 
