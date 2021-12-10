@@ -132,6 +132,8 @@ a:hover {
 
 /* Header & Footer */
 
+header {  padding: 1% 5%;  }
+
 footer {
     padding-bottom: 0.5rem;
     color: rgb(145, 140, 140);
