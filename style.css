@@ -8,7 +8,7 @@
 
 img { max-width: 100%;}
 
-/*  Temporary Styles */
+/*  Temporary Styles 
 
  * {
     padding: 0.5rem;
@@ -35,7 +35,7 @@ body {
 
 
 .padded    { padding: 5%;    }
-.padded-10    { padding: 10%;    }
+.padded-10    { padding: 2% 10% 10% 10%;    }
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -48,7 +48,7 @@ body {
 .margin-t   { margin-top: 5%;   }
 
 
-.bg-light    { background-color: #FCF4ED;  }
+.bg-light    { background-color: #f2eee9;  }
 .bg-featured { background-color: #ED974C;  }
 .bg-dark     { background-color: #24282B;  }
 
@@ -149,9 +149,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: lavenderblush;
-}
 
 .contact:hover {
     background-color: white;
@@ -252,6 +249,25 @@ footer img {   max-width: 55%;  }
 
 .bg-team   { background-image: url('/images/team.png');}
 
+.bg-img-1 { background-image: url('/images/tours-1.jpg'); 
+ 
+}
+.bg-img-2 { background-image: url('/images/tourism.jpg'); 
+  
+}
+
+.bg-img-3 { background-image: url('/images/tours-3.jpg'); 
+    background-position: 50% 25%;
+}
+
+.bg-img-4 { background-image: url('/images/tours-4.jpg'); 
+    background-position: bottom;
+}
+
+.bg-img-5 { background-image: url('/images/tours2.jpg'); 
+  
+}
+
 
 .shape-teardrop {
     border-radius: 20rem;
@@ -272,6 +288,25 @@ footer img {   max-width: 55%;  }
  [class*=grid] {   margin: 0;  }
  [class*=col]  {   padding: 0; }
 
+ /* Images & Background Images */
+
+/* Aspect Ratio  */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
+.gallery [class*="col-"] {
+    padding: 0.5%;
+}
+
 
 /*@media (max-width: 36em)	Max 576px	_xs-*
 @media (max-width: 48em)	Max 768px	_sm-*
@@ -281,6 +316,8 @@ footer img {   max-width: 55%;  }
 
 /*  Gridlex small media query - Max 768 px _sm*/
 @media(max-width: 48em)	{
+    .mob-hide { display: none; }
+    .mob-show { display: block; }  
     .text-xxl { font-size: 6rem;}
     .text-xl { font-size: 3.5rem;}
     .sm-block { display: block;}
