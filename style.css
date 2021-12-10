@@ -130,6 +130,7 @@ p:last-child {
     margin-bottom: 0;
 }
 
+.text-sm { font-size: 1.5rem;}
 .text-lg { font-size: 3.5rem;}
 .text-xl { font-size: 4.5rem;}
 .text-xxl { font-size: 8rem;}
@@ -266,6 +267,10 @@ footer img {   max-width: 55%;  }
     display:inline-block;
     padding: 0.5rem;
   }
+
+ /* this overrides the default padding and margin on gridlex elements */
+ [class*=grid] {   margin: 0;  }
+ [class*=col]  {   padding: 0; }
 
 
 /*@media (max-width: 36em)	Max 576px	_xs-*
