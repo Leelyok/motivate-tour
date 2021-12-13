@@ -166,6 +166,12 @@ a {
     display: inline-block;
 }
 
+.button-b {
+    padding: 0.3rem;
+    display: inline-block;
+    border-bottom: 1px solid #f59186;
+}
+
 .emphasis { 
     font-size: 1.1rem;
     font-weight: 600;
@@ -220,6 +226,8 @@ footer p   {    font-size: 0.8rem;}
 
 footer img {   max-width: 55%;  }
 
+header img {   max-width: 80%;  }
+
 
 /* Images & Background Images */
 
@@ -232,7 +240,10 @@ footer img {   max-width: 55%;  }
     transition: opacity 1s;
 }
 
-.bg-sity {  background-image: url('/images/motivate2.jpg');}
+.bg-sity {  
+    background-image: url('/images/motivate2.jpg');
+    background-position: 50% 35%;
+}
 
 .bg-sands {  background-image: url('/images/motiva1.jpg');}
 
@@ -283,6 +294,54 @@ footer img {   max-width: 55%;  }
     display:inline-block;
     padding: 0.5rem;
   }
+
+/*  Mobile Menu Styles  */
+
+.mobile-menu {
+    display: none; 
+    background-color: #faf4ed;
+    padding: 5%;
+    position: fixed; 
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: left;
+    z-index: 3;
+  }
+  
+  .mobile-menu a {
+    text-decoration: none; 
+    color: inherit; 
+    padding: 5vh 5%;
+    display: block;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1.5rem;
+   }
+   
+   .hamburger-button {
+      cursor: pointer;
+      padding: 1.5rem;
+      display: inline-block;
+      font-family: inherit;
+      font-weight: 200;
+      font-size: 1.2rem;
+      line-height: 0.8;
+      position: fixed;
+      right: 1rem;
+      top: 0rem;
+      z-index: 4;
+   }
+   
+   .hamburger-button i {
+      font-size: 2.2rem;
+      margin-bottom: 0;
+   }
+  
+  .hamburger-button.active {
+      color: #9d614c;
+    }
 
  /* this overrides the default padding and margin on gridlex elements */
  [class*=grid] {   margin: 0;  }
