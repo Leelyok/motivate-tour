@@ -418,6 +418,11 @@ header img {   max-width: 80%;  }
         border: 8px solid #FFF;
         border-radius: 1rem;
       } 
+      .emphasis { 
+          font-size: 0.9rem;
+          letter-spacing: 0.06rem;
+          word-spacing: 0.1rem;
+         }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
