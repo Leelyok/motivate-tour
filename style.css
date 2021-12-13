@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     padding: 0;
@@ -275,9 +277,11 @@ header img {   max-width: 80%;  }
     background-position: bottom;
 }
 
-.bg-img-5 { background-image: url('/images/tours2.jpg'); 
-  
-}
+.bg-img-5 { background-image: url('/images/tours2.jpg'); }
+
+.bg-map { background-image: url('/images/map1.png'); }
+
+.bg-map1 { background-image: url('/images/map2.png'); }
 
 
 .shape-teardrop {
@@ -341,6 +345,12 @@ header img {   max-width: 80%;  }
   
   .hamburger-button.active {
       color: #9d614c;
+    }
+
+    .small-footer {
+        font-size: .6rem;
+        font-weight: 200;
+        letter-spacing: .05rem;
     }
 
  /* this overrides the default padding and margin on gridlex elements */
