@@ -385,12 +385,32 @@ header img {   max-width: 80%;  }
 
 /*  Gridlex small media query - Max 768 px _sm*/
 @media(max-width: 48em)	{
+    .flex-flip-sm { flex-direction: column-reverse; }
     .mob-hide { display: none; }
     .mob-show { display: block; }  
     .text-xxl { font-size: 6rem;}
     .text-xl { font-size: 3.5rem;}
     .sm-block { display: block;}
     .text-center-sm { text-align: center;}
+    h2 {font-size: 2rem;}
+    h3 {font-size: 1.5rem;}
+    p { font-size: 1rem; }
+
+    .quote-icon {  font-size: 2.5rem;  }
+    .text-sm { font-size: 0.8rem;}
+
+    .mob-horisont-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    .mob-horisont-scroll img { 
+        max-width: 20rem;
+        vertical-align: middle;
+        display: inline-block;
+        max-height: 400px;
+        border: 8px solid #FFF4EB;
+        border-radius: 1rem;
+      } 
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
