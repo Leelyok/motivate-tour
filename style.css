@@ -37,6 +37,8 @@ body {
 
 
 .padded    { padding: 5%;    }
+.padded-t  { padding-top: 7%;    }
+.padded-t10  { padding-top: 10%;    }
 .padded-10    { padding: 2% 10% 10% 10%;    }
 
 .padded-1,
@@ -376,6 +378,11 @@ header img {   max-width: 80%;  }
     padding: 0.5%;
 }
 
+/* Default Responsive Styles (Dekstop and below) */
+.mob-show {
+    display: none; 
+  }
+
 
 /*@media (max-width: 36em)	Max 576px	_xs-*
 @media (max-width: 48em)	Max 768px	_sm-*
@@ -408,7 +415,7 @@ header img {   max-width: 80%;  }
         vertical-align: middle;
         display: inline-block;
         max-height: 400px;
-        border: 8px solid #FFF4EB;
+        border: 8px solid #FFF;
         border-radius: 1rem;
       } 
 }
