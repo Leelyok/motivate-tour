@@ -100,12 +100,12 @@ a.bg-image {
 /* General typography & universal styles  */
 
 body {
-    font-family: 'Baskervville', serif;
+    font-family: 'Roboto', sans-serif;
     color: #524646;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Didot', serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1;
     margin-bottom: 1rem;
     font-weight: normal;
@@ -214,15 +214,14 @@ header {
 }
 
 header a {  
-    color: #D56F15; 
-    font-weight: bold;
+    color: #7b756f; 
+    font-weight: 400;
     font-size: 1.5rem;
 }
 
 footer {
     padding-bottom: 0.5rem;
     color: rgb(145, 140, 140);
-    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
@@ -230,7 +229,7 @@ footer p   {    font-size: 0.8rem;}
 
 footer img {   max-width: 55%;  }
 
-header img {   max-width: 60%;  }
+header img {   max-width: 30%;  }
 
 
 /* Images & Background Images */
