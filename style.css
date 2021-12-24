@@ -95,7 +95,7 @@ body {
 .service-type .bg-image {
     border: 2px solid #f8f6f4;
     position: relative;
-    padding-top: 100%;
+    padding-top: 50%;
 }
 
 a.bg-image {
@@ -113,7 +113,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     margin-bottom: 1rem;
     font-weight: normal;
 }
@@ -151,6 +151,7 @@ p:last-child {
     font-size: 4rem;
     color: #fff;
     font-weight: 600;
+    line-height: 1.6;
 }
 
 .text-lato {
@@ -205,7 +206,7 @@ a {
 }
 
 .service-type .big-bold {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: white;
     position: relative;
     z-index: 3;
