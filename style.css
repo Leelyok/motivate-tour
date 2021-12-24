@@ -38,9 +38,15 @@ body {
 
 
 .padded    { padding: 5%;    }
-.padded-t  { padding-top: 7%;    }
+.padded-t  { padding-top: 3%;    }
 .padded-t10  { padding-top: 10%;    }
 .padded-10    { padding: 10%;    }
+.padded-20    { 
+    padding-top: 5%;
+    padding-bottom: 20%; 
+    padding-left: 20%; 
+    padding-right: 20%; 
+}
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -117,7 +123,7 @@ h2 {font-size: 2.5rem;}
 h3 {font-size: 1.8rem;}
 
 p {
-    line-height: 1.4;
+    line-height: 1.8;
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
 }
