@@ -34,12 +34,13 @@ body {
 .tall-70 { min-height: 70vh; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
 
 
 .padded    { padding: 5%;    }
 .padded-t  { padding-top: 7%;    }
 .padded-t10  { padding-top: 10%;    }
-.padded-10    { padding: 2% 10% 10% 10%;    }
+.padded-10    { padding: 10%;    }
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -106,14 +107,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    line-height: 1;
+    line-height: 1.6;
     margin-bottom: 1rem;
     font-weight: normal;
 }
 
 h1 {font-size: 3rem;}
 h2 {font-size: 2.5rem;}
-h3 {font-size: 2rem;}
+h3 {font-size: 1.8rem;}
 
 p {
     line-height: 1.4;
@@ -139,6 +140,12 @@ p:last-child {
 .text-xl { font-size: 4.5rem;}
 .text-xxl { font-size: 8rem;}
 .text-bold { font-weight: bold;}
+
+.text-big { 
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 600;
+}
 
 .text-lato {
     font-family: 'Lato', sans-serif;
@@ -239,13 +246,14 @@ header img {   max-width: 30%;  }
     background-position: center;
     background-color: #F2EEE9;
     background-repeat: no-repeat;
-    opacity: 1;
-    transition: opacity 1s;
 }
 
-.bg-sity {  
-    background-image: url('/images/motivate2.jpg');
-    background-position: 50% 35%;
+.banner {  
+    background-image: url('/images/motivate-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 140vh;
 }
 
 .bg-sands {  background-image: url('/images/motiva1.jpg');}
@@ -354,9 +362,10 @@ header img {   max-width: 30%;  }
         letter-spacing: .05rem;
     }
 
- /* this overrides the default padding and margin on gridlex elements */
+ /* this overrides the default padding and margin on gridlex elements 
  [class*=grid] {   margin: 0;  }
  [class*=col]  {   padding: 0; }
+ */
 
  /* Images & Background Images */
 
