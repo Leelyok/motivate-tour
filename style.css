@@ -29,6 +29,8 @@ body {
 
 /* Re-usable Utiity Classes  */
 
+.tall-30 { min-height: 30vh; }
+.tall-40 { min-height: 40vh; }
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
 .tall-70 { min-height: 70vh; }
@@ -47,6 +49,7 @@ body {
     padding-left: 20%; 
     padding-right: 20%; 
 }
+.padded-b-0 { padding-bottom: 0; }
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -182,7 +185,7 @@ a {
     font-size: 1.1rem;
     border: 1px solid #f59186;
     background-color: #FDF4EC;
-    border-radius: 1.5rem;
+    /*border-radius: 1.5rem;*/
     text-decoration: none;
     padding: 1rem 1.5rem;
     display: inline-block;
@@ -402,8 +405,56 @@ header img {   max-width: 20%;  }
 .bg-pos-l { background-position: left; }
 .bg-pos-r { background-position: right; }
 
-.gallery [class*="col-"] {
+.gallery [class*="col-"] { 
     padding: 0.5%;
+}
+
+/* formspree */
+
+input, textarea {
+  border-style: solid;
+  border: 2px solid rgb(200, 200, 205);
+  padding: 0.8em;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #e67e22;
+  /* featured color */
+}
+
+textarea {
+  min-height: 7em;
+}
+
+input[type="submit"] {
+  width: auto;
+  display: block;
+}
+
+form [class*=col-] {
+  padding: 5px;
+}
+
+.email-signup input {
+  width: 30%;
+  display: inline-block;
+  max-width: 250px;
+  margin-top:1rem;
+}
+
+.email-signup .button-solid {
+  padding: 0.8em;
+  border-radius: 0;
+  font-size: 1rem;
+}
+form .button {
+  width:100%;
 }
 
 /* Default Responsive Styles (Dekstop and below) */
@@ -451,6 +502,10 @@ header img {   max-width: 20%;  }
           letter-spacing: 0.06rem;
           word-spacing: 0.1rem;
          }
+    .email-signup input {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
