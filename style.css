@@ -492,6 +492,7 @@ form .button {
         max-width: 2rem;
         opacity: 0.6;
         margin-top: 0.3rem;
+        margin-bottom: 0;
     }
 
     .padded-20 { padding: 5%;}
