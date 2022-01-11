@@ -9,6 +9,8 @@ $('.hamburger-button').click(function(){
   });
 
 
+
+
   // Slick slider
   $('.slider-container').slick({
     // Setting name: setting-value
