@@ -155,6 +155,8 @@ p:last-child {
 .text-xxl { font-size: 8rem;}
 .text-bold { font-weight: bold;}
 
+.text-footer { font-size: 1.5rem;}
+
 .text-big { 
     font-size: 4rem;
     color: #fff;
@@ -186,11 +188,17 @@ a {
     font-size: 1.1rem;
     border: 1px solid #f59186;
     background-color: #FDF4EC;
-    /*border-radius: 1.5rem;*/
+    border-radius: 0.5rem;
     text-decoration: none;
     padding: 1rem 1.5rem;
     display: inline-block;
 }
+
+.button:hover {
+    background-color: #ed974c;
+    color: #fff; 
+    border: 1px solid #fff;
+    }
 
 .button-b {
     padding: 0.1rem;
@@ -415,7 +423,7 @@ header img {   max-width: 20%;  }
 
 input, textarea {
   border-style: solid;
-  border: 2px solid rgb(200, 200, 205);
+  border: 2px solid #ed974c;
   padding: 0.8em;
   display: block;
   width: 100%;
@@ -485,7 +493,7 @@ form .button {
     h1 { font-size: 2rem;}
     h2 { font-size: 1.4rem;}
     h3 { font-size: 1.3rem;}
-    p  {  font-size: 0.9rem;}
+    p, li  {  font-size: 0.9rem;}
 
     header img {   max-width: 30%;  }
     .icons img {
@@ -501,6 +509,8 @@ form .button {
 
     .quote-icon {  font-size: 2.5rem;  }
     .text-sm { font-size: 0.8rem;}
+
+    .right  { text-align: left; }
 
     .mob-horisont-scroll {
         overflow-x: auto;
