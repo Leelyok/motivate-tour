@@ -473,6 +473,46 @@ form .button {
   width:100%;
 }
 
+
+/*Polygon and svg */
+
+section {  position: relative; }
+
+svg.mask {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: block;
+    font-variant-numeric: lining-nums;
+    background-size: cover;
+    background-position: center;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.svg-white {
+    stroke: #ffffff;
+    fill: #ffffff;
+  }
+
+  .svg-orange {
+    stroke: #ed974c;
+    fill: #ed974c;
+  }
+.top {
+    top: -1px;
+    bottom: auto;
+    left: 0;
+}
+
+polygon {
+    stroke-width: 2px;
+  }
+
+
+
 /* Default Responsive Styles (Dekstop and below) */
 .mob-show {
     display: none; 
