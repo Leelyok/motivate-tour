@@ -290,7 +290,7 @@ header img {   max-width: 20%;  }
 .bg-mice{  background-image: url('/images/mice.jpg'); }
 .bg-culture{  background-image: url('/images/motivate-fest1.jpg'); }
 .bg-tailor{  background-image: url('/images/cars-tour.jpg'); }
-.tour{  
+.tour {  
     background-size: cover;
     background-position: center;
     display: flex;
@@ -523,7 +523,7 @@ polygon { stroke-width: 2px; }
     z-index:-1
    }
 .orange-box2 {
-    margin:-5% 0 0 -6%;
+    margin: 24% 0 0 -6%;
     position:absolute;
     width:350px;
     height:400px;
@@ -541,6 +541,24 @@ polygon { stroke-width: 2px; }
     border:1px solid #fbebdb;
     z-index:-1
 }
+
+
+/*  SCROLL gallery */
+
+.mob-horisont-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.mob-horisont-scroll img { 
+    max-width: 40rem;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 400px;
+    border: 8px solid #FFF;
+    border-radius: 1rem;
+    align-items: flex-end;
+} 
+
 
 
 
