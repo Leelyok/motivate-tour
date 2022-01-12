@@ -191,7 +191,7 @@ a {
     font-size: 1.1rem;
     border: 1px solid #f59186;
     background-color: #FDF4EC;
-    border-radius: 0.5rem;
+    /*border-radius: 0.5rem;*/
     text-decoration: none;
     padding: 1rem 1.5rem;
     display: inline-block;
