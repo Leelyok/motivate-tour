@@ -153,6 +153,7 @@ p:last-child {
 }
 
 .text-sm { font-size: 1.5rem;}
+.text-xs { font-size: 1rem;}
 .text-lg { font-size: 3.5rem;}
 .text-xl { font-size: 4.5rem;}
 .text-xxl { font-size: 8rem;}
@@ -225,11 +226,11 @@ a {
 }
 
 .service-type .big-bold {
-    font-size: 3.5vw;
     color: white;
     position: relative;
     z-index: 3;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 /* Icon Grid Section  */
