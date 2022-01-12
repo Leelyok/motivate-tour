@@ -637,6 +637,35 @@ polygon { stroke-width: 2px; }
         width: 100%;
         max-width: 100%;
     }
+
+    .orange-box1 {
+        margin:46% 0 0 2%;
+        position:absolute;
+        width:225px;
+        height:250px;
+        background-color:#fbebdb;
+        border:1px solid #fbebdb;
+        z-index:-1
+       }
+    .orange-box2 {
+        margin: 68% 0 0 -6%;
+        position:absolute;
+        width:250px;
+        height:350px;
+        background-color:#fbebdb;
+        border:1px solid #fbebdb;
+        z-index:-1
+       }
+    
+    .orange-box3 {
+        margin: 65% 0 0 -7%;
+        position:absolute;
+        width:250px;
+        height:350px;
+        background-color:#fbebdb;
+        border:1px solid #fbebdb;
+        z-index:-1
+    }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
