@@ -50,6 +50,9 @@ body {
     padding-right: 20%; 
 }
 .padded-b-0 { padding-bottom: 0; }
+.padded-l-0 { padding-left: 0; }
+.padded-r-0 { padding-right: 0; }
+.padded-t-0 { padding-top: 0; }
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -127,7 +130,7 @@ h2 {font-size: 2.5rem;}
 h3 {font-size: 1.8rem;}
 
 p {
-    line-height: 1.8;
+    line-height: 1.5;
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
 }
@@ -507,9 +510,36 @@ svg.mask {
     left: 0;
 }
 
-polygon {
-    stroke-width: 2px;
-  }
+polygon { stroke-width: 2px; }
+
+.orange-box1 {
+    margin:23% 0 0 2%;
+    position:absolute;
+    width:325px;
+    height:450px;
+    background-color:#fbebdb;
+    border:1px solid #fbebdb;
+    z-index:-1
+   }
+.orange-box2 {
+    margin:-5% 0 0 -6%;
+    position:absolute;
+    width:350px;
+    height:400px;
+    background-color:#fbebdb;
+    border:1px solid #fbebdb;
+    z-index:-1
+   }
+
+.orange-box3 {
+    margin:-6% 0 0 -7%;
+    position:absolute;
+    width:350px;
+    height:400px;
+    background-color:#fbebdb;
+    border:1px solid #fbebdb;
+    z-index:-1
+}
 
 
 
