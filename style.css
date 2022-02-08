@@ -10,7 +10,7 @@ html {
 
 img { max-width: 100%;}
 
-/*  Temporary Styles 
+/*  Temporary Styles */
 
  * {
     padding: 0.5rem;
@@ -341,8 +341,8 @@ header img {   max-width: 20%;  }
 }
 
 .shape-window {
-    border-top-left-radius: 20rem;
-    border-top-right-radius: 20rem;
+    border-top-left-radius: 25rem;
+    border-top-right-radius: 25rem;
 }
 
 .inline a {
